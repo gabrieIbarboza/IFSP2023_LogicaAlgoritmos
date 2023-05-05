@@ -65,7 +65,7 @@ int main()
     }
 
     // Inversão
-    void programa3 (void)
+    void Programa3 (void)
     {
         int A, B, C;
     
