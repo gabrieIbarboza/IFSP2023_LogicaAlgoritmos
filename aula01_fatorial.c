@@ -1,10 +1,15 @@
+/******************************************************************************
+
+Written in GDB Online
+
+*******************************************************************************/
 #include <stdio.h>
 
 //
 // Aula 01 - Introdução aos conceitos de Algoritmos e Lógica de Programação
 //
 
-//Function para calcular fatorial de um número
+//  Function para calcular fatorial de um número
 int CalcFat(int n) {
     if(n == 0 || n == 1)
         return 1;
@@ -13,7 +18,9 @@ int CalcFat(int n) {
     return n * (CalcFat(n-1));
 }
 
-//Todo programa em C sempre terá uma function main()
+//      Todo programa em C tem uma função primária que deve ser nomeada "main"; 
+//      Ela serve como ponto de partida para a execução do programa; 
+//      Ela controla a execução direcionando as chamadas para outras funções no programa.
 int main()
 {
     int nfat = -1;
